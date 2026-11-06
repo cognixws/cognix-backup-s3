@@ -1,5 +1,6 @@
 {
-  "id": "picode-backup-s3",
+  "id": "backup-s3",
+  "formerly": ["picode-backup-s3"],
   "name": "S3-compatible storage",
   "version": "0.1.1",
   "apiVersion": 14,
