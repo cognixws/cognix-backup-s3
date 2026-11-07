@@ -1,7 +1,10 @@
 {
-  "id": "picode-backup-s3",
+  "id": "backup-s3",
+  "formerly": [
+    "picode-backup-s3"
+  ],
   "name": "S3-compatible storage",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "apiVersion": 14,
   "publisher": "COGNIX[WS]",
   "description": "Keeps encrypted copies of your COGNIX[WS] backups in an S3 bucket: Cloudflare R2, Backblaze B2, Wasabi, MinIO, AWS S3 or any S3-compatible storage. COGNIX[WS] encrypts everything before it leaves this computer; the storage never sees what is inside.",
